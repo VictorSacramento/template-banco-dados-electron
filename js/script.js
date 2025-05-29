@@ -1,13 +1,12 @@
-var formulario = document.getElementById("form-cadastro");
+console.log("Script carregou com sucesso")
 
-formulario.addEventListener("submit", function(event) {
-    event.preventDefault();
-    
-    var nome = document.getElementById("nome").value;
-    var email = document.getElementById("email").value;
+var formulario = document.getElementById("form-cadastro")
 
-    console.log("Nome: " + nome + ", Email: " + email);
+formulario.addEventListener("submit", function(evento) {
+  evento.preventDefault() // Impede o envio do formulário
 
+  var campoNome = document.getElementById("nome").value
+  var campoEmail = document.getElementById("email").value
+
+  console.log(campoNome, campoEmail)
 })
-
-

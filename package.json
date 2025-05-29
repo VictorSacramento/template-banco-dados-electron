@@ -1,7 +1,6 @@
 {
   "name": "template-banco-dados-electron",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -10,10 +9,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
-    "electron": "^36.3.1"
+    "electron": "^36.3.1",
+    "electronmon": "^2.0.3"
   },
   "dependencies": {
-    "electronmon": "^2.0.3"
+    "mysql2": "^3.14.1"
   }
 }
